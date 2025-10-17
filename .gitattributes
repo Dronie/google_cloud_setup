@@ -1,1 +1,5 @@
-.sh text eol=lr
+* text=auto
+
+# bash scripts in this repo will always be used for 
+# a linux VM, so make sure their line endings are LF, not CRLF
+.sh text eol=lf
